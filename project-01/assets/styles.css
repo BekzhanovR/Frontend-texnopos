@@ -222,3 +222,51 @@ main .container .btns{
 .features .container .card:last-child .context{
     color: #fff;
 }
+
+/* Packages section styles */
+
+.packages{
+    padding: 160px;
+    width: 100%;
+}
+
+.packages .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.packages .container .left{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.packages .container .left hr{
+    width: 94px;
+    height: 7px;
+    background-color: #E74040;
+    border: none; 
+}
+
+.packages .container .left h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+}
+
+.packages .container .left h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+}
+
+.packages .container .left .link{
+    color: #23a6f0;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+

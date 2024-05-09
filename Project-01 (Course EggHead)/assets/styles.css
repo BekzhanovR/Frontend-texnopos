@@ -226,7 +226,7 @@ main .container .btns{
 /* Packages section styles */
 
 .packages{
-    padding: 160px;
+    padding: 160px 0px;
     width: 100%;
 }
 
@@ -270,3 +270,171 @@ main .container .btns{
     gap: 10px;
 }
 
+/* Courses section styles */
+
+.courses{
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.courses .container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.courses .container .caption{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.courses .container .caption p{
+    color: #23a6f0;
+    font-weight: 700;
+}
+
+.courses .container .caption h2{
+    font-size: 40px;
+    color: #252B42;
+    font-weight: 700;
+}
+
+.courses .container .caption h4{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Courses cards styles */
+
+.courses .container .cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.courses .container .cards .card .image{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.courses .container .cards .card .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.courses .container .cards .card .image span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 24px;
+    padding: 0px 10px;
+    z-index: 11;
+    background-color: #E74040;
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.courses .container .cards .card .image .menu{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .3s ease-in; 
+}
+
+.courses .container .cards .card .image:hover .menu{
+    bottom: 20px;
+    transition: .3s;
+}
+
+.courses .container .cards .card .image .menu div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Course card caption styles */
+
+.courses .container .cards .card .caption{
+    padding: 25px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.courses .container .cards .card .caption .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .container .cards .card .caption .top .rating{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #252B42;
+    color: #fff;
+    cursor: pointer;
+}
+
+.courses .container .cards .card .caption .top .rating span{
+    font-weight: 700;
+}
+
+.courses .container .cards .card .caption .course-title{
+    font-size: 16px;
+    line-break: 24px;
+}
+
+.courses .container .cards .card .caption .sales-count{
+    font-size: 14px;
+    color: #737373;
+    font-weight: 700;
+    line-height: 24px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.courses .container .cards .card .caption h5{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.courses .container .cards .card .caption .details{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.courses .container .cards .card .caption .details div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.courses .container .cards .card .caption .btn{
+    width: 140px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    gap: 10px;
+    color: #23a6f0;
+    border: 1px solid #23a6f0;
+    border-radius: 37px;
+}

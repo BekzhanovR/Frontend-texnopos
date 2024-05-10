@@ -439,3 +439,78 @@ main .container .btns{
     border-radius: 37px;
 }
 
+/* Teachers section styles */
+
+.teachers{
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.teachers .container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.teachers .container .caption{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.teachers .container .caption p{
+    color: #23a6f0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.teachers .container .caption h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+}
+
+.teachers .container .caption h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+}
+
+.teacher-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.teacher-cards .card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.teacher-cards .card img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+
+.teacher-cards .card h4{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.teacher-cards .card h2{
+    font-size: 16px;
+    font-weight: 700;
+    color: #252B42;
+}
+
+.teacher-cards .card p{
+    color: #737373;
+    font-weight: 700;
+}

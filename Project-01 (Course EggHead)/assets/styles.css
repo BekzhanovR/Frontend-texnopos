@@ -514,3 +514,66 @@ main .container .btns{
     color: #737373;
     font-weight: 700;
 }
+
+/* Featured Products section style */
+
+.featured-products{
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.featured-products .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 80px;
+}
+
+.featured-products .container .caption{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.featured-products .container .caption p{
+    font-weight: 700;
+    color: #23a6f0;
+}   
+
+.featured-products .container .caption h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+}
+
+.featured-products .container .caption h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+}
+
+label{
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+label input,label button{
+    padding: 20px;
+    border: none;
+    outline: none;
+}
+
+label input{
+    width: 570px;
+    background-color: #F9F9F9;
+    border: 1px solid #e6e6e6;
+}
+
+label button{
+    background-color: #23a6f0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -577,3 +577,53 @@ label button{
     font-size: 14px;
     font-weight: 400;
 }
+
+/* Footer section styles */
+footer{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #252B42;
+}
+
+footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    color: #fff;
+}
+
+footer .container .about-me{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+footer .container h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer .container .text{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.social-networks-icons{
+    display: flex;
+    gap: 20px;
+}
+
+footer .container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .container ul h2{
+    margin-bottom: 10px;
+}
+
+footer .container ul li{
+    cursor: pointer;
+}

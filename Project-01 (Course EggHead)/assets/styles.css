@@ -627,3 +627,15 @@ footer .container ul h2{
 footer .container ul li{
     cursor: pointer;
 }
+
+/* About of developer */
+marquee{
+    padding: 25px 0px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+marquee div{
+    display: flex;
+    gap: 200px;
+}

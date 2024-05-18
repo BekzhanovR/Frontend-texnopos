@@ -69,6 +69,7 @@ header{
     width: 100%;
     height: 10vh;
     background-color: #170550;
+    z-index: 999999;
 }
 
 header .container{
@@ -310,3 +311,66 @@ header .container ul li:hover a{
     color: #fff;
     font-weight: 600;
 }
+/* Skills section styles end */
+
+/* Portfolio section styles start */
+.portfolio{
+    width: 100%;
+    height: 100vh;
+    background-color: #461959;
+}
+
+.portfolio .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 90px;
+}
+
+.portfolio .container .portfolio-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 13px;
+}
+
+.portfolio .container .portfolio-cards .card{
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portfolio .container .portfolio-cards .card img{
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio .container .portfolio-cards .card .hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ad5bfb;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    transition: all .3s;
+    top: 100%;
+}
+
+.portfolio .container .portfolio-cards .card .hover img{
+    width: 25px;
+    height: 25px;
+}
+
+.portfolio .container .portfolio-cards .card:hover .hover{
+    top: 0;
+}
+/* Portfolio section styles end */

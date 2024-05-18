@@ -209,3 +209,104 @@ header .container ul li:hover a{
     font-weight: 600;
 }
 /* About section styles end */
+
+/* Services section styles start */
+.services{
+    width: 100%;
+    height: 100vh;
+    background-color: #461959;
+    display: flex;
+    align-items: center;
+}
+
+.services .container{
+    display: flex;
+    gap: 90px;
+    flex-direction: column;
+}
+
+.services .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.services .cards .card{
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 0px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 33px;
+    height: 400px;
+}
+
+.services .cards .card h3{
+    font-size: 25px;
+    color: #170550;
+    font-weight: 700;
+}
+
+.services .cards .card p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #170550;
+}
+/* Services section styles end */
+
+/* Skills section styles start */
+.skills{
+    width: 100%;
+    height: 100vh;
+    background-color: #170550;
+    display: flex;
+    align-items: center;
+}
+
+.skills .container{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.skills .container .skills-container{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.skills .container .skills-container .skill-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.skills .container .skills-container .skill-container .skill-name{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    width: 15%;
+}
+
+.skills .container .skills-container .skill-container .progress-bar{
+    width: 75%;
+    border-radius: 20px;
+    background-color: #43366a;
+    height: 20px;
+    padding: 5px;
+}
+
+.skills .container .skills-container .skill-container .progress-bar .progress{
+    height: 100%;
+    border-radius: 10px;
+    background-color: #F86F03;    
+}
+
+.skills .container .skills-container .skill-container .procent{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+}

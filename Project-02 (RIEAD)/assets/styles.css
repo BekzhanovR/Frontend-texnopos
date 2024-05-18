@@ -455,3 +455,18 @@ header .container ul li:hover a{
     font-weight: 600;
 }
 /* Contact section styles end */
+
+marquee{
+    padding: 20px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #31065A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600; 
+}
+
+marquee div{
+    display: flex;
+    gap: 200px;
+}

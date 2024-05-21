@@ -1,0 +1,40 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+/* Variables */
+:root{
+    /* Primary colors */
+    --primary-color: #00856F;
+    --primary-light-color: #DCE9E2;
+    --primary-light-color-02: #F7F9F9;
+    --primary-hover-color: #00453A;
+    --primary-beige: #FFFAF1;
+    --primary-hover-color: #00453A;
+
+    /* Secondary colors */
+    --headline: #061800;
+    --paragraph: #384633;
+    --white: #3E3E3E;
+}
+
+.container{
+    width: 85%;
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-decoration: none;
+}

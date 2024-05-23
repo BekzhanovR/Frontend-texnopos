@@ -263,7 +263,7 @@ main .container .right{
 
 /* Services section styles start */
 .services{
-    padding: 90px 0px;
+    padding: 160px 0px;
     width: 100%;
     background-color: var(--primary-light-color-02);
 }

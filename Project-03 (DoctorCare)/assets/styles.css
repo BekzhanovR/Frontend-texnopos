@@ -113,6 +113,7 @@ button{
 .icon{
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
 
 /* Header section styles start */
@@ -396,3 +397,34 @@ main .container .right{
 .contact .container .left .social-pages .caption{
     font-size: 16px;
 }
+/* Contact section styles end */
+
+/* Footer section styles start */
+footer{
+    padding: 80px;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .left{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+footer .container .left p{
+    font-size: 14px;
+    color: var(--primary-beige);
+}
+
+footer .container .right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+/* Footer section styles end */

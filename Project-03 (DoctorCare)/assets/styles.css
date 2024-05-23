@@ -109,6 +109,12 @@ button{
     color: var(--paragraph);
 }
 
+/* Icon styles */
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
 /* Header section styles start */
 header{
     width: 100%;
@@ -350,3 +356,11 @@ main .container .right{
     font-size: 16px;
 }
 /* About section styles end */
+
+/* Contact section styles start */
+.contact{
+    width: 100%;
+    padding: 160px 0px;
+    background-color: var(--white);
+
+}

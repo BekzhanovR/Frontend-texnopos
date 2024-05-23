@@ -362,5 +362,37 @@ main .container .right{
     width: 100%;
     padding: 160px 0px;
     background-color: var(--white);
+}
 
+.contact .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .container .left{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact .container .left .title{
+    font-size: 40px;
+}
+
+.contact .container .left .social-pages{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.contact .container .left .social-pages div{
+    display: flex;
+    gap: 8px;
+}
+
+.contact .container .left .social-pages .caption{
+    font-size: 16px;
 }

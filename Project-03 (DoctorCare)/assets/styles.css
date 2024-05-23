@@ -317,3 +317,36 @@ main .container .right{
     font-size: 16px;
 }
 /* Services section styles end */
+
+/* About section styles start */
+.about{
+    padding: 160px 0px;
+    width: 100%;
+    background-color: var(--primary-beige);
+}
+
+.about .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.about .container .left img{
+    width: 480px;
+} 
+
+.about .container .right{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about .container .right .title{
+    font-size: 40px;
+}
+
+.about .container .right .caption{
+    font-size: 16px;
+}
+/* About section styles end */

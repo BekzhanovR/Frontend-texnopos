@@ -24,6 +24,9 @@ html{
     --headline: #212529;
     --paragraph: #495057;
     --white: #fff;
+
+    /* Bo shadows */
+    --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 /* Default styles */
@@ -114,6 +117,7 @@ header{
     overflow: hidden;
     position: fixed;
     background-color: transparent;
+    transition: all .3s;
 }
 
 header .container{
@@ -206,10 +210,12 @@ main .container .right{
     flex-direction: column;
     gap: 24px;
 }
+
 /* Main section styles end */
 
 /* Stats section styles start */
 .our-stats{
+    height: 105px;
     width: 100%;
     background-color: var(--primary-light-color-02);
 }
@@ -229,7 +235,7 @@ main .container .right{
     justify-content: space-between;
     background-color: var(--white);   
     border-radius: 6px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: var(--box-shadow);
 }
 
 .our-stats .container .stats .box{
@@ -254,3 +260,60 @@ main .container .right{
     background-color: var(--primary-color);
 }
 /* Stats section styles end */
+
+/* Services section styles start */
+.services{
+    padding: 90px 0px;
+    width: 100%;
+    background-color: var(--primary-light-color-02);
+}
+
+.services .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.services .container .titles{
+    text-align: center;
+}
+
+.services .container .titles .title{
+    font-size: 40px;
+    width: 700px;
+}
+
+.services .container .cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.services .container .cards .card{
+    text-align: left;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 6px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+
+.services .container .cards .card img{
+    width: 24px !important;
+    height: 24px;
+}
+
+.services .container .cards .card h2{
+    font-size: 24px;
+}
+
+.services .container .cards .card p{
+    font-size: 16px;
+}
+/* Services section styles end */

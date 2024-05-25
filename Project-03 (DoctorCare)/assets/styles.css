@@ -169,12 +169,12 @@ header .container ul li a::after{
     transition: .3s;
 }
 
-header .container ul li:hover a, header .container ul li.active a{
+header .container ul li:hover a, header .container ul li a.active{
     font-weight: 700;
     transition: .3s;
 }
 
-header .container ul li:hover a::after, header .container ul li.active a::after{
+header .container ul li:hover a::after, header .container ul li a.active::after{
     bottom: 0px;
     transition: .3s;
 }

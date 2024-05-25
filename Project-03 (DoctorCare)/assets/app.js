@@ -26,12 +26,4 @@ window.addEventListener("scroll", () => {
             })          
         }
     })
-})  
-
-// Update nav links on click
-navLinks.forEach(element => {
-    element.addEventListener("click", () => {
-        navLinks.forEach(navLink => navLink.classList.remove("active"))
-        element.classList.add("active")
-    })
-});
+})

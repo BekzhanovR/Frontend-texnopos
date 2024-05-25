@@ -428,3 +428,63 @@ footer .container .right{
     align-items: center;
 }
 /* Footer section styles end */
+
+/* Responsive styles start */
+@media screen and (max-width: 1024px){
+    .container{
+        width: 95%;
+    }
+
+    main .container{
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    main .container .right div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    main .container img{
+        transform: translateY(100px) !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section .container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header .container nav, header .container button{
+        display: none;
+    }
+
+    main .container img{
+        transform: translateY(150px) !important;
+    }
+    
+    .our-stats .container .stats{
+        padding: 30px 60px;
+    }
+
+    .services .container .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact .container{
+        gap: 100px;
+        flex-direction: column-reverse;
+    }
+
+    .contact .container .left{
+        width: 90%;
+    }
+
+    .contact .container .left div{
+        display: flex;
+        justify-content: center;
+    }
+}

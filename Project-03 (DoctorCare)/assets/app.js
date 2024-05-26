@@ -32,6 +32,4 @@ window.addEventListener("scroll", () => {
 // A function that add a class when the button is clicked
 hambBtn.addEventListener('click', () => {
     hambBtn.classList.toggle('active')
-    header.classList.toggle('active')
-    
 })

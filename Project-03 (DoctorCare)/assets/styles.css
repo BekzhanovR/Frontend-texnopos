@@ -142,7 +142,7 @@ button{
 }
 
 .hamb.active span:nth-child(3){
-    transform: translateY(-12px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
 }
 
 .hamb.active span:last-child{
@@ -263,7 +263,7 @@ main .container .left{
 
 main .container .left{
     position: static;
-    transform: translateY(110px);
+    transform: translateY(40px);
 }
 
 /* Main section styles end */
@@ -483,6 +483,11 @@ footer .container .right{
         width: 90%;
     }
 
+    main{
+        padding: 120px 0px;
+        height: auto;
+    }
+
     main .container{
         text-align: center;
         justify-content: center;
@@ -494,18 +499,16 @@ footer .container .right{
         display: flex;
         justify-content: center;
     }
-
-    main .container .left{
-        position: absolute;
-        bottom: 40px;
-        transform: translateY(0);
+     
+    main .left{
+        transform: translateY(0px);
     }
 }
 
 @media screen and (max-width: 768px) {
     .title{
         font-size: 34px !important;
-        width: 490px !important;
+        width: 100% !important;
     }
 
     .hamb{
@@ -520,12 +523,26 @@ footer .container .right{
         display: none;
     }
 
+    main{
+        padding: 180px 0px;
+    }
+
     main .container .right{
+        width: 100%;
         align-items: center;
     }
 
     .our-stats .container .stats{
-        padding: 30px 60px;
+        padding: 40px 0px;
+    }
+
+    .our-stats .container .stats{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .our-stats .container .stats hr{
+        display: none;
     }
 
     .services .container .cards{

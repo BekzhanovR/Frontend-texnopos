@@ -149,40 +149,6 @@ button{
     width: 30px;
 }
 
-/* Hamb menu styles */
-.hamb-menu{
-    position: flex;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    color: #fff;
-    background-color: var(--primary-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 80px;
-}
-
-.hamb-menu ul{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 48px;
-}
-
-.hamb-menu ul li a{
-    color: #fff;
-}
-
-.hamb-menu ul button{
-    background-color: #fff;
-    border: none;
-    color: var(--primary-color);
-    font-weight: 700;
-}
-
 /* Header section styles start */
 header{
     width: 100%;

@@ -234,6 +234,47 @@ header.active .container .hamb span{
 }
 /* Header section styles end */
 
+/* Mobile navigation bar styles start */
+.mobile-nav{
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.mobile-nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+.mobile-nav ul li a{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.mobile-nav ul button{
+    background-color: #fff;
+    color: var(--primary-color);
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mobile-nav .social-networks{
+    display: flex;
+    gap: 33px;
+}
+
 /* Main section styles start */
 main{
     position: relative;

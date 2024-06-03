@@ -229,3 +229,35 @@ header{
         }
     }
 }
+// About section styles end
+
+// Services section styles start
+.services{
+    height: auto;
+
+    .container{
+        padding: 90px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .captions{
+            text-align: center;
+
+            h1{
+                font-size: 32px;
+                font-weight: 500;
+            }
+        }
+
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+
+            .card{
+                text-align: center;
+            }
+        }
+    }
+}

@@ -199,4 +199,29 @@ header .container .nav-links li a:hover {
 .about .container .content .icons .icon h4 {
   font-size: 16px;
   font-weight: 400;
+}
+
+.services {
+  height: auto;
+}
+.services .container {
+  padding: 90px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.services .container .captions {
+  text-align: center;
+}
+.services .container .captions h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.services .container .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.services .container .cards .card {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

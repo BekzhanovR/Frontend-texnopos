@@ -286,3 +286,77 @@ header{
         }
     }
 }
+// Portfolio section styles end
+
+// Contact section style start
+.contact{
+    height: auto;
+    background: linear-gradient(180deg, rgba(236, 178, 46, 0.0754) 0%, rgba(255, 255, 255, 0.1144) 100%);
+
+    .container{
+        height: 100%;
+        padding: 60px 0px;  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left{
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+
+            .top{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h2{
+                    font-size: 32px;
+                    font-weight: 500;
+                }
+            }
+
+            .bottom{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                span{
+                    display: flex;
+                    gap: 8px;
+                    align-items: center;
+                }
+            }
+        }
+
+        .right{
+            width: 535px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            .inputs{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                gap: 10px;
+
+                input,textarea{
+                    padding: 28px 35px;
+                    border-radius: 10px;
+                    border: 1.95px solid #00000080;
+                
+                    &::placeholder{
+                        color: #000;
+                        opacity: .5;
+                    }
+                }
+
+                textarea{
+                    resize: none;
+                }
+            }
+        }
+    }
+}
+// Contact section style end

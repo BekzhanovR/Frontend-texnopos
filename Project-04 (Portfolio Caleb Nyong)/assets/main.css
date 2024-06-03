@@ -245,4 +245,68 @@ header .container .nav-links li a:hover {
 }
 .portfolio .container .cards img {
   width: 100%;
+}
+
+.contact {
+  height: auto;
+  background: linear-gradient(180deg, rgba(236, 178, 46, 0.0754) 0%, rgba(255, 255, 255, 0.1144) 100%);
+}
+.contact .container {
+  height: 100%;
+  padding: 60px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .container .left {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.contact .container .left .top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact .container .left .top h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.contact .container .left .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact .container .left .bottom span {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.contact .container .right {
+  width: 535px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.contact .container .right .inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.contact .container .right .inputs input, .contact .container .right .inputs textarea {
+  padding: 28px 35px;
+  border-radius: 10px;
+  border: 1.95px solid rgba(0, 0, 0, 0.5019607843);
+}
+.contact .container .right .inputs input::-moz-placeholder, .contact .container .right .inputs textarea::-moz-placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+.contact .container .right .inputs input::placeholder, .contact .container .right .inputs textarea::placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+.contact .container .right .inputs textarea {
+  resize: none;
 }/*# sourceMappingURL=main.css.map */

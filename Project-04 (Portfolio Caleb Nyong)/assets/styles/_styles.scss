@@ -5,6 +5,10 @@
     font-family: $primary-font;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 // Global styles
 .container{
     width: 80%;
@@ -57,7 +61,7 @@ button{
     opacity: .5;
 }
 
-// Header 
+// Header section style start
 header{
     width: 100%;
     height: 70px;
@@ -92,6 +96,22 @@ header{
     }
 }
 
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 21px; 
+
+    a{
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        font-size: 15px;
+        font-weight: 600;   
+    }
+}
+// Header section style end
+
+// Main section styles start
 .main{
     height: 100vh;
     position: relative;
@@ -111,20 +131,6 @@ header{
                 display: flex;
                 flex-direction: column;
                 gap: 6.8px;
-            }
-
-            .btns{
-                display: flex;
-                align-items: center;
-                gap: 21px; 
-
-                a{
-                    display: flex;
-                    align-items: center;
-                    gap: 23px;
-                    font-size: 15px;
-                    font-weight: 600;   
-                }
             }
         }
 
@@ -166,5 +172,60 @@ header{
                 opacity: .7;
             }
         }   
+    }
+}
+// Main section styles end
+
+// About section styles start
+.about{
+    height: auto;
+    
+    .container{
+        height: 100%;    
+        padding: 60px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .content{
+            width: 650px;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+
+            .texts{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h1{
+                    font-weight: 400;
+                    font-size: 36px;
+                }
+            }
+
+            .icons{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 40px;
+
+                .icon{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    p{
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: $primary-color;
+                    }
+
+                    h4{
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
     }
 }

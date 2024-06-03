@@ -61,6 +61,29 @@ button{
     opacity: .5;
 }
 
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 21px; 
+
+    a{
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        font-size: 15px;
+        font-weight: 600;   
+    }
+}
+
+.captions{
+    text-align: center;
+
+    h1{
+        font-size: 32px;
+        font-weight: 500;
+    }
+}
+
 // Header section style start
 header{
     width: 100%;
@@ -93,20 +116,6 @@ header{
                 }
             }
         }
-    }
-}
-
-.btns{
-    display: flex;
-    align-items: center;
-    gap: 21px; 
-
-    a{
-        display: flex;
-        align-items: center;
-        gap: 23px;
-        font-size: 15px;
-        font-weight: 600;   
     }
 }
 // Header section style end
@@ -241,15 +250,6 @@ header{
         flex-direction: column;
         gap: 20px;
 
-        .captions{
-            text-align: center;
-
-            h1{
-                font-size: 32px;
-                font-weight: 500;
-            }
-        }
-
         .cards{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -257,6 +257,31 @@ header{
 
             .card{
                 text-align: center;
+            }
+        }
+    }
+}
+// Services section styles end
+
+// Portfolio section styles start
+.portfolio{
+    height: auto;
+
+    .container{
+        height: 100%;
+        padding: 60px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .cards{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 48px;
+
+            img{
+                width: 100%;
             }
         }
     }

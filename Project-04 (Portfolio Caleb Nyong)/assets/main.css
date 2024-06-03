@@ -60,6 +60,27 @@ button {
   opacity: 0.5;
 }
 
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+.btns a {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.captions {
+  text-align: center;
+}
+.captions h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
 header {
   width: 100%;
   height: 70px;
@@ -87,19 +108,6 @@ header .container .nav-links li a {
 header .container .nav-links li a:hover {
   font-weight: 700;
   text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.25);
-}
-
-.btns {
-  display: flex;
-  align-items: center;
-  gap: 21px;
-}
-.btns a {
-  display: flex;
-  align-items: center;
-  gap: 23px;
-  font-size: 15px;
-  font-weight: 600;
 }
 
 .main {
@@ -210,13 +218,6 @@ header .container .nav-links li a:hover {
   flex-direction: column;
   gap: 20px;
 }
-.services .container .captions {
-  text-align: center;
-}
-.services .container .captions h1 {
-  font-size: 32px;
-  font-weight: 500;
-}
 .services .container .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -224,4 +225,24 @@ header .container .nav-links li a:hover {
 }
 .services .container .cards .card {
   text-align: center;
+}
+
+.portfolio {
+  height: auto;
+}
+.portfolio .container {
+  height: 100%;
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.portfolio .container .cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px;
+}
+.portfolio .container .cards img {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

@@ -4,7 +4,7 @@
 
 > 20+ open-source frontend programming projects. HTML, CSS, SASS, Tailwind CSS, Javascript and React technologies were used in the development of projects. The list contains links to demo versions of projects and figma models. Great for learning purpose!
 
-_-Made by <a href="github.com/BekzhanovR" title="Bekzhanov Rasul">Bekzhanov Rasul</a>_
+_-Made by <a href="https://github.com/BekzhanovR" title="Bekzhanov Rasul">Bekzhanov Rasul</a>_
 
 # Projects table
 

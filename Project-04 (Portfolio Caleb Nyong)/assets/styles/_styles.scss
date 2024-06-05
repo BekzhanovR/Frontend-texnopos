@@ -117,6 +117,10 @@ header{
             }
         }
     }
+
+    &.active{
+        background-color: #fff;
+    }
 }
 // Header section style end
 
@@ -288,7 +292,7 @@ header{
 }
 // Portfolio section styles end
 
-// Contact section style start
+// Contact section styles start
 .contact{
     height: auto;
     background: linear-gradient(180deg, rgba(236, 178, 46, 0.0754) 0%, rgba(255, 255, 255, 0.1144) 100%);
@@ -359,4 +363,19 @@ header{
         }
     }
 }
-// Contact section style end
+// Contact section styles end
+
+// Footer section styles start
+footer{
+    height: auto;
+
+    .container{
+        padding: 60px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+    }
+}
+// Footer section styles end

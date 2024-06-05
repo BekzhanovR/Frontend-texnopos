@@ -109,6 +109,9 @@ header .container .nav-links li a:hover {
   font-weight: 700;
   text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.25);
 }
+header.active {
+  background-color: #fff;
+}
 
 .main {
   height: 100vh;
@@ -309,4 +312,14 @@ header .container .nav-links li a:hover {
 }
 .contact .container .right .inputs textarea {
   resize: none;
+}
+
+footer {
+  height: auto;
+}
+footer .container {
+  padding: 60px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */

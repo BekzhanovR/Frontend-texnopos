@@ -372,10 +372,39 @@ footer{
     .container{
         padding: 60px 0px;
         display: flex;
-        align-items: center;
         justify-content: space-between;
         
-        
+        .about{
+            width: 285px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            img{
+                width: 70px;
+            }
+
+            p{
+                font-size: 12px;
+            }
+        }
+
+        .menu{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            font-weight: 500;
+            font-size: 20px;
+            color: #000;
+
+            h3{
+                opacity: 0.81;
+            }
+
+            p{
+                opacity: 0.31;
+            }
+        }
     }
 }
 // Footer section styles end

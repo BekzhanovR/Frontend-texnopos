@@ -320,6 +320,31 @@ footer {
 footer .container {
   padding: 60px 0px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+}
+footer .container .about {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+footer .container .about img {
+  width: 70px;
+}
+footer .container .about p {
+  font-size: 12px;
+}
+footer .container .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+footer .container .menu h3 {
+  opacity: 0.81;
+}
+footer .container .menu p {
+  opacity: 0.31;
 }/*# sourceMappingURL=main.css.map */

@@ -22,6 +22,12 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
+
+.container{
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
   
 ul[role='list'],
 ol[role='list'] {

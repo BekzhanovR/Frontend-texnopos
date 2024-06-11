@@ -1,9 +1,11 @@
 // Typography base styles
+*{
+    font-family: "Montserrat", 'sans-serif' !important;
+}
 
 html {
     font-size: 100%; // Default 16px
     line-height: 1.5;
-    font-family: Arial, sans-serif;
 }
   
 body {
@@ -41,16 +43,14 @@ h6 {
 }
   
 p {
+    font-size: 14px;
+    font-weight: 700 !important;
     margin: 0 0 1em;
 }
   
 a {
     color: #007bff;
     text-decoration: none;
-  
-    &:hover {
-        text-decoration: underline;
-    }
 }
   
 ul, ol {

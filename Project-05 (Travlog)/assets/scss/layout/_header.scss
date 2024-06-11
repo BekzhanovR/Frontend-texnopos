@@ -1,0 +1,38 @@
+header{
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    z-index: 111;
+
+    .container{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        nav{
+            display: flex;
+            gap: 64px;
+
+            p{
+                cursor: pointer;
+                color: $light-text-color;
+
+                &:hover{
+                    color: $text-hover-color;
+                }
+            }
+        }
+
+        .btns{
+            display: flex;
+            align-items: center;
+            gap: 32px;
+
+            p{
+                color: $text-hover-color;
+            }
+        }
+    }
+}

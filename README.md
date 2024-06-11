@@ -1,4 +1,4 @@
-![CLONE WARS](assets/OG.jpg)
+![CLONE WARS](.assets/OG.jpg)
 
 # TEXNOPOS - Frontend development
 

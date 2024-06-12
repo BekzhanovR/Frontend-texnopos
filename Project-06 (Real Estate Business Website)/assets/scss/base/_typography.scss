@@ -1,0 +1,72 @@
+// Typography base styles
+*{
+    font-family: "Montserrat", 'sans-serif' !important;
+}
+
+html {
+    font-size: 100%; // Default 16px
+    line-height: 1.5;
+}
+  
+body {
+    font-size: 1rem;
+    color: #333;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0.5em;
+    font-weight: normal;
+}
+  
+h1 {
+    font-size: 2em;
+}
+  
+h2 {
+    font-size: 1.75em;
+}
+  
+h3 {
+    font-size: 1.5em;
+}
+  
+h4 {
+    font-size: 1.25em;
+}
+  
+h5 {
+    font-size: 1em;
+}
+  
+h6 {
+    font-size: 0.875em;
+}
+  
+p {
+    font-size: 14px;
+    font-weight: 700 !important;
+    margin: 0 0 1em;
+}
+  
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+  
+ul, ol {
+    margin: 0 0 1em 1.5em;
+    padding: 0;
+    list-style-position: inside;
+}
+  
+blockquote {
+    margin: 0 0 1em;
+    padding: 0 1em;
+    border-left: 0.25em solid #eee;
+    color: #555;
+    font-style: italic;
+}
+  
+pre, code {
+    font-family: "Courier New", Courier, monospace;
+}  

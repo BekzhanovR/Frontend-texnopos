@@ -1,6 +1,6 @@
 // Typography base styles
 *{
-    font-family: "Montserrat", 'sans-serif' !important;
+    font-family: "Urbanist", sans-serif !important;
 }
 
 html {
@@ -14,12 +14,8 @@ body {
 }
   
 h1, h2, h3, h4, h5, h6 {
-    margin: 0 0 0.5em;
+    margin: 0 0;
     font-weight: normal;
-}
-  
-h1 {
-    font-size: 2em;
 }
   
 h2 {
@@ -70,3 +66,15 @@ blockquote {
 pre, code {
     font-family: "Courier New", Courier, monospace;
 }  
+
+.title{
+    color: #fff;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.paragraph{
+    font-size: 18px;
+    font-weight: 500;
+    color: $grey-color-60;
+}

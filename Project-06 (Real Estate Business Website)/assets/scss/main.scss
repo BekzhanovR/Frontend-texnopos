@@ -1,5 +1,21 @@
-// Base styles
+//Abstract styles
+@import "abstracts/variables";
+
+//Vendor styles
+
+//Base styles
 @import "base/base";
 @import "base/reset";
 @import "base/typography";
 
+//Components styles
+@import "components/buttons";
+@import "components/cards";
+
+//Layout styles
+@import "layout/header";
+@import "layout/hero";
+@import "layout/service-card";
+
+//Pages styles
+@import "pages/home";

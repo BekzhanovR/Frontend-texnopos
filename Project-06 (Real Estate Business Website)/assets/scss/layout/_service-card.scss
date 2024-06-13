@@ -1,0 +1,10 @@
+.services-card{
+    width: 100%;
+    height: auto;
+    background-color: $grey-color-08;
+    border: 1px solid $grey-color-15;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}

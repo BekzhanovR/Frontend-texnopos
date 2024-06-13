@@ -1,0 +1,54 @@
+.hero{
+    position: relative;
+    width: 100%;
+    background-color: $grey-color-08;
+    height: auto;
+    padding: 144px 0px;
+
+    .container{
+        display: flex;
+        gap: 80px;
+        
+        .hero-left{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+
+            .contents{
+                h1{
+                    font-size: 60px;
+                    margin-bottom: 24px;
+                }
+            }
+
+            .btns{
+                display: flex;
+                gap: 30px;
+            }
+
+            .hero-cards{
+                display: flex;
+                gap: 20px;
+            }
+        }
+
+        .hero-right{
+            flex: 1;
+            display: flex;
+
+            .hero-image{
+                position: absolute;
+                
+                .img{
+                    position: relative;
+                    width: 100%;
+    
+                    .image{
+                        position: absolute;
+                    }
+                }
+            }
+        }
+    }
+}

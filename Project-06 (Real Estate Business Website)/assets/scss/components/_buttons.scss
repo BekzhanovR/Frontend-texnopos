@@ -1,0 +1,23 @@
+.btn{
+    padding: 18px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &.solid-dark{
+        background-color: $grey-color-08;
+        border: 1px solid $grey-color-15;
+    }
+
+    &.outlined-btn{
+        background-color: transparent;
+        border: 1px solid $grey-color-15;
+    }
+
+    &.solid-primary{
+        background-color: $purple-color-60;
+        border: none;
+    }
+}

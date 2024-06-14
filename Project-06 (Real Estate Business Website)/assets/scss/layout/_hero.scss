@@ -36,18 +36,25 @@
         .hero-right{
             flex: 1;
             display: flex;
+        }
+    }
 
-            .hero-image{
+    .hero-image{
+        position: absolute;
+        width: calc(50% - 80px);
+        height: 100%;
+        top: 0;
+        right: 0;
+
+        .img{
+            position: relative;
+            width: 100%;
+            height: 100%;
+
+            .image{
+                width: 100%;
+                height: 100%;
                 position: absolute;
-                
-                .img{
-                    position: relative;
-                    width: 100%;
-    
-                    .image{
-                        position: absolute;
-                    }
-                }
             }
         }
     }

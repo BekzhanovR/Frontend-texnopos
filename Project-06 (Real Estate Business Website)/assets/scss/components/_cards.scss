@@ -58,13 +58,16 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
 
-        .properties-card{
+        #card{
             padding: 40px;
             background-color: $grey-color-08;
             border: 1px solid $grey-color-15;
             border-radius: 12px;
             display: flex;
             flex-direction: column;
+        }
+
+        .properties-card{
             gap: 30px;
 
             .card-details{
@@ -99,6 +102,32 @@
                 }
             }
         }
+
+        .testimonials-card{
+            gap: 40px;
+
+            .stars{
+                display: flex;
+                gap: 10px;
+            }
+
+            .user-details{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                
+                .user-info{
+                    display: flex;
+                    flex-direction: column;
+
+                    .user-name{
+                        font-size: 20px;
+                        color: #fff;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }   
     }
 
     .slider-btns{

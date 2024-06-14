@@ -350,13 +350,15 @@ pre, code {
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
-.slider-cards .cards .properties-card {
+.slider-cards .cards #card {
   padding: 40px;
   background-color: #141414;
   border: 1px solid #262626;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
+}
+.slider-cards .cards .properties-card {
   gap: 30px;
 }
 .slider-cards .cards .properties-card .card-details {
@@ -383,6 +385,27 @@ pre, code {
   font-weight: 600;
   line-height: 36px;
   color: #fff;
+}
+.slider-cards .cards .testimonials-card {
+  gap: 40px;
+}
+.slider-cards .cards .testimonials-card .stars {
+  display: flex;
+  gap: 10px;
+}
+.slider-cards .cards .testimonials-card .user-details {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.slider-cards .cards .testimonials-card .user-details .user-info {
+  display: flex;
+  flex-direction: column;
+}
+.slider-cards .cards .testimonials-card .user-details .user-info .user-name {
+  font-size: 20px;
+  color: #fff;
+  line-height: 30px;
 }
 .slider-cards .slider-btns {
   border-top: 1px solid #262626;
@@ -499,14 +522,21 @@ header .container nav .nav-links.active {
   flex: 1;
   display: flex;
 }
-.hero .container .hero-right .hero-image {
+.hero .hero-image {
   position: absolute;
+  width: calc(50% - 80px);
+  height: 100%;
+  top: 0;
+  right: 0;
 }
-.hero .container .hero-right .hero-image .img {
+.hero .hero-image .img {
   position: relative;
   width: 100%;
+  height: 100%;
 }
-.hero .container .hero-right .hero-image .img .image {
+.hero .hero-image .img .image {
+  width: 100%;
+  height: 100%;
   position: absolute;
 }
 
@@ -533,4 +563,14 @@ header .container nav .nav-links.active {
 .properties .container .card-detials {
   display: flex;
   gap: 10px;
+}
+
+.testimonials {
+  padding: 150px 0px;
+  background-color: #141414;
+}
+.testimonials .container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }/*# sourceMappingURL=main.css.map */

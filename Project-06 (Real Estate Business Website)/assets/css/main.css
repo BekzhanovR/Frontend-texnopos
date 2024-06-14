@@ -407,6 +407,9 @@ pre, code {
   color: #fff;
   line-height: 30px;
 }
+.slider-cards .cards .faq-card {
+  gap: 30px;
+}
 .slider-cards .slider-btns {
   border-top: 1px solid #262626;
   display: flex;
@@ -570,6 +573,16 @@ header .container nav .nav-links.active {
   background-color: #141414;
 }
 .testimonials .container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.faq {
+  padding: 150px 0px;
+  background-color: #141414;
+}
+.faq .container {
   display: flex;
   flex-direction: column;
   gap: 80px;

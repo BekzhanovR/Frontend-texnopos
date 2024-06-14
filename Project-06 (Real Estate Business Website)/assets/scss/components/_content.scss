@@ -1,0 +1,27 @@
+.content{
+    position: relative;
+    padding: 20px 0px 0px;
+
+    .title{
+        font-size: 48px;
+
+    }
+
+    span{
+        position: absolute;
+        top: -10px;
+        left: -20px;
+    }
+
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        p{
+            margin: 0px;
+            font-size: 18px;
+            width: 1200px;
+        }
+    }
+}

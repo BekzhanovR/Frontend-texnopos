@@ -224,30 +224,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-h2 {
-  font-size: 1.75em;
-}
-
-h3 {
-  font-size: 1.5em;
-}
-
-h4 {
-  font-size: 1.25em;
-}
-
-h5 {
-  font-size: 1em;
-}
-
-h6 {
-  font-size: 0.875em;
-}
-
 p {
   font-size: 14px;
-  font-weight: 700 !important;
-  margin: 0 0 1em;
+  margin: 0 0;
 }
 
 a {
@@ -283,6 +262,16 @@ pre, code {
   font-size: 18px;
   font-weight: 500;
   color: #999999;
+}
+.paragraph span {
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .btn {
@@ -349,6 +338,103 @@ pre, code {
   height: 26px;
   top: 20px;
   right: 20px;
+}
+
+.slider-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.slider-cards .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.slider-cards .cards .properties-card {
+  padding: 40px;
+  background-color: #141414;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.slider-cards .cards .properties-card .card-details {
+  display: flex;
+  gap: 10px;
+}
+.slider-cards .cards .properties-card .card-details .details {
+  cursor: pointer;
+  padding: 8px 14px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  background-color: #1a1a1a;
+  border: 1px solid #262626;
+  border-radius: 28px;
+}
+.slider-cards .cards .properties-card .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider-cards .cards .properties-card .bottom .price span {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #fff;
+}
+.slider-cards .slider-btns {
+  border-top: 1px solid #262626;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+.slider-cards .slider-btns .card-number {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+.slider-cards .slider-btns .card-number .txt {
+  color: #999999;
+}
+.slider-cards .slider-btns .btns {
+  display: flex;
+  gap: 10px;
+}
+.slider-cards .slider-btns .btns div {
+  padding: 14px;
+  background-color: transparent;
+  border: 1px solid #262626;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider-cards .slider-btns .btns div.active {
+  background-color: #1a1a1a;
+}
+
+.content {
+  position: relative;
+  padding: 20px 0px 0px;
+}
+.content .title {
+  font-size: 48px;
+}
+.content span {
+  position: absolute;
+  top: -10px;
+  left: -20px;
+}
+.content .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .box p {
+  margin: 0px;
+  font-size: 18px;
+  width: 1200px;
 }
 
 header {
@@ -432,5 +518,19 @@ header .container nav .nav-links.active {
   padding: 10px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.properties {
+  padding: 150px 0px;
+  background-color: #141414;
+}
+.properties .container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.properties .container .card-detials {
+  display: flex;
   gap: 10px;
 }/*# sourceMappingURL=main.css.map */

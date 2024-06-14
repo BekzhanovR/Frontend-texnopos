@@ -47,3 +47,92 @@
         right: 20px;
     }
 }
+
+.slider-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+
+        .properties-card{
+            padding: 40px;
+            background-color: $grey-color-08;
+            border: 1px solid $grey-color-15;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .card-details{
+                display: flex;
+                gap: 10px;
+
+                .details{
+                    cursor: pointer;
+                    padding: 8px 14px;  
+                    display: flex ;
+                    gap: 4px;
+                    align-items: center;
+                    background-color: $grey-color-10;
+                    border: 1px solid $grey-color-15;
+                    border-radius: 28px;
+                }
+            }
+
+            .bottom{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .price{
+
+                    span{
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 36px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .slider-btns{
+        border-top: 1px solid $grey-color-15;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0px;
+
+        .card-number{
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+
+            .txt{
+                color: $grey-color-60;
+            }
+        }
+
+        .btns{
+            display: flex;
+            gap: 10px;
+
+            div{
+                padding: 14px;
+                background-color: transparent;
+                border: 1px solid $grey-color-15;
+                border-radius: 50%;
+                cursor: pointer;
+
+                &.active{
+                    background-color: $grey-color-10;
+                }
+            }
+        }
+    }
+}

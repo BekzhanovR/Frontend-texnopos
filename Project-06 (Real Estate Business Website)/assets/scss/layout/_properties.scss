@@ -1,0 +1,15 @@
+.properties{
+    padding: 150px 0px;
+    background-color: $grey-color-08;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+
+        .card-detials{
+            display: flex;
+            gap: 10px;
+        }
+    }
+}

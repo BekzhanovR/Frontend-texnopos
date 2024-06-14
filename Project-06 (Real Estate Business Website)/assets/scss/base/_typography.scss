@@ -18,30 +18,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
   
-h2 {
-    font-size: 1.75em;
-}
-  
-h3 {
-    font-size: 1.5em;
-}
-  
-h4 {
-    font-size: 1.25em;
-}
-  
-h5 {
-    font-size: 1em;
-}
-  
-h6 {
-    font-size: 0.875em;
-}
-  
 p {
     font-size: 14px;
-    font-weight: 700 !important;
-    margin: 0 0 1em;
+    margin: 0 0;
 }
   
 a {
@@ -77,4 +56,15 @@ pre, code {
     font-size: 18px;
     font-weight: 500;
     color: $grey-color-60;
+
+    span{
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
 }

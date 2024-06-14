@@ -586,4 +586,32 @@ header .container nav .nav-links.active {
   display: flex;
   flex-direction: column;
   gap: 80px;
+}
+
+.cta {
+  position: relative;
+  padding: 100px 0px;
+  background-color: #141414;
+  border: 1px solid #262626;
+}
+.cta .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cta .container .content {
+  width: 1150px;
+}
+.cta .container .btn {
+  z-index: 1;
+}
+.cta img {
+  position: absolute;
+  bottom: 0;
+}
+.cta img.left {
+  left: 0;
+}
+.cta img.right {
+  right: 0;
 }/*# sourceMappingURL=main.css.map */

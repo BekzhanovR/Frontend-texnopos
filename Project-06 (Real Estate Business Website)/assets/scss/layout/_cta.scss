@@ -1,0 +1,33 @@
+.cta{
+    position: relative;
+    padding: 100px 0px;
+    background-color: $grey-color-08;
+    border: 1px solid $grey-color-15;
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .content{
+            width: 1150px;
+        }
+
+        .btn{
+            z-index: 1;
+        }
+    }
+
+    img{
+        position: absolute;
+        bottom: 0;
+
+        &.left{
+            left: 0;
+        }
+
+        &.right{
+            right: 0;
+        }
+    }
+}

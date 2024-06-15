@@ -1,0 +1,21 @@
+/* Width and height of the scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $grey-color-10;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $purple-color-60;
+    border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

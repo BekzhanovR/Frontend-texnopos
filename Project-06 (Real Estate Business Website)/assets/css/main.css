@@ -145,7 +145,7 @@ html {
   box-sizing: inherit;
 }
 
-html:focus-within {
+html {
   scroll-behavior: smooth;
 }
 
@@ -614,4 +614,94 @@ header .container nav .nav-links.active {
 }
 .cta img.right {
   right: 0;
+}
+
+footer .footer {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #141414;
+}
+footer .footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer .container .left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .footer .container .left .logo {
+  width: 160px;
+}
+footer .footer .container .left label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer .container .left label input {
+  width: 425px;
+  padding: 18px 24px 18px 58px;
+  background-color: #141414;
+  border-radius: 10px;
+  border: 1px solid #262626;
+  outline: none;
+}
+footer .footer .container .left label img {
+  position: absolute;
+  z-index: 1;
+}
+footer .footer .container .left label img.left-icon {
+  left: 24px;
+}
+footer .footer .container .left label img.right-icon {
+  right: 24px;
+  cursor: pointer;
+}
+footer .footer .container .right {
+  display: flex;
+  gap: 100px;
+}
+footer .footer .container .right .paragraph {
+  color: #fff;
+  margin-bottom: 30px;
+}
+footer .footer .container .right .paragraph.page-name {
+  font-size: 20px;
+  color: #999999;
+}
+footer .footer .container .right .sitemap-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .footer .container .right .sitemap-links .paragraph {
+  margin-bottom: 0px;
+}
+footer .end {
+  padding: 30px 0px;
+  background-color: #1a1a1a;
+}
+footer .end .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .end .container .left {
+  display: flex;
+  gap: 38px;
+}
+footer .end .container .left .paragraph {
+  color: #fff;
+  cursor: pointer;
+}
+footer .end .container .right {
+  display: flex;
+  gap: 10px;
+}
+footer .end .container .right .social-icon {
+  cursor: pointer;
+  padding: 14px;
+  border-radius: 50%;
+  background-color: #141414;
 }/*# sourceMappingURL=main.css.map */

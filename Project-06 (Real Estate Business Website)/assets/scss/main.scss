@@ -1,5 +1,8 @@
 //Abstract styles
 @import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/responsive";
 
 //Vendor styles
 
@@ -21,6 +24,7 @@
 @import "layout/testimonials";
 @import "layout/faq";
 @import "layout/cta";
+@import "layout/footer";
 
 //Pages styles
 @import "pages/home";

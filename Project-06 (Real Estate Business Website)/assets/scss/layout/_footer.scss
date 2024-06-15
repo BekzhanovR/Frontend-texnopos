@@ -1,0 +1,110 @@
+footer{
+    .footer{
+        width: 100%;
+        padding: 100px 0px;
+        background-color: $grey-color-08;
+        
+        .container{
+            display: flex;
+            justify-content: space-between;
+
+            .left{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                .logo{
+                    width: 160px;
+                }
+
+                label{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    input{
+                        width: 425px;
+                        padding: 18px 24px 18px 58px;
+                        background-color: $grey-color-08;
+                        border-radius: 10px;
+                        border: 1px solid $grey-color-15;
+                        outline: none;
+                    }
+
+                    img{
+                        position: absolute;
+                        z-index: 1;
+                        
+                        &.left-icon{
+                            left: 24px;
+                        }
+
+                        &.right-icon{
+                            right: 24px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+
+            .right{
+                display: flex;
+                gap: 100px;
+
+                .paragraph{
+                    color: #fff;
+                    margin-bottom: 30px;
+
+                    &.page-name{
+                        font-size: 20px;
+                        color: $grey-color-60;   
+                    }
+                }
+
+                .sitemap-links{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .paragraph{
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .end{
+        padding: 30px 0px;
+        background-color: $grey-color-10;
+
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .left{
+                display: flex;
+                gap: 38px;
+                
+                .paragraph{
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+
+            .right{
+                display: flex;
+                gap: 10px;
+
+                .social-icon{
+                    cursor: pointer;
+                    padding: 14px;
+                    border-radius: 50%;
+                    background-color: $grey-color-08;
+                }
+            }
+        }
+    }
+}

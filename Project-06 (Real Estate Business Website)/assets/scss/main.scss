@@ -26,6 +26,14 @@
 @import "layout/faq";
 @import "layout/cta";
 @import "layout/footer";
+//About page layouts
+@import "layout/about-page-layouts/values";
+@import "layout/about-page-layouts/achievments";
+@import "layout/about-page-layouts/navigate";
+@import "layout/about-page-layouts/team";
+@import "layout/about-page-layouts/clients";
 
 //Pages styles
+@import "pages/pages";
 @import "pages/home";
+@import "pages/about";

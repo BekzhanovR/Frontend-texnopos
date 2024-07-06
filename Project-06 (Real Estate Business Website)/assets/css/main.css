@@ -410,6 +410,44 @@ pre, code {
 .slider-cards .cards .faq-card {
   gap: 30px;
 }
+.slider-cards .cards .client-card {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  box-shadow: 0px 0px 0px 8px #191919;
+}
+.slider-cards .cards .client-card h3 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+.slider-cards .cards .client-card .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider-cards .cards .client-card .middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider-cards .cards .client-card .middle .paragraph {
+  display: flex;
+  gap: 5px;
+}
+.slider-cards .cards .client-card .middle hr {
+  width: 1px;
+  height: 100%;
+  border: 1px solid #262626;
+}
+.slider-cards .cards .client-card .bottom {
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .slider-cards .slider-btns {
   border-top: 1px solid #262626;
   display: flex;
@@ -438,6 +476,148 @@ pre, code {
 }
 .slider-cards .slider-btns .btns div.active {
   background-color: #1a1a1a;
+}
+
+.values-card {
+  padding: 60px;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  box-shadow: 0px 0px 0px 10px #191919;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.values-card .items {
+  display: flex;
+  gap: 30px;
+}
+.values-card .items .vertical-line {
+  width: 1px;
+  height: 100;
+  background-color: #262626;
+  border: none;
+}
+.values-card .items .item {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.values-card .items .item .header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.values-card .items .item .header span {
+  padding: 20px;
+  border-radius: 50px;
+  border: 1px solid #703BF7;
+}
+.values-card .line {
+  width: 100%;
+  height: 1px;
+  background-color: #262626;
+  border: none;
+}
+
+.achievments-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.achievments-cards .card {
+  background-color: #141414;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  padding: 50px;
+  box-shadow: 0px 0px 0px 8px #191919;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.achievments-cards .card h3 {
+  font-size: 30px;
+}
+
+.navigate-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.navigate-cards .navigate-card .top {
+  padding: 16px 20px;
+  border-left: 1px solid #703BF7;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+.navigate-cards .navigate-card .bottom {
+  padding: 50px;
+  border: 1px solid #703BF7;
+  border-radius: 0px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.team-cards .team-card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border: 1px solid #262626;
+  border-radius: 12px;
+}
+.team-cards .team-card .member-image {
+  position: relative;
+}
+.team-cards .team-card .member-image img {
+  width: 100%;
+}
+.team-cards .team-card .member-image .social-link {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  bottom: -28px;
+  transform: translateX(-50%);
+  border-radius: 43px;
+  padding: 16px 24px;
+  background-color: #703BF7;
+}
+.team-cards .team-card .member-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.team-cards .team-card .member-info .member-desc {
+  text-align: center;
+}
+.team-cards .team-card .member-info .send-msg-btn {
+  cursor: pointer;
+  padding: 14px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #262626;
+  border-radius: 100px;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+.team-cards .team-card .member-info .send-msg-btn .msg {
+  font-size: 18px;
+  font-weight: 500;
+}
+.team-cards .team-card .member-info .send-msg-btn .send-btn {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #703BF7;
 }
 
 .content {
@@ -514,52 +694,53 @@ header .container nav .nav-links.active {
   background-color: #141414;
 }
 
-.hero {
+#hero {
   position: relative;
   width: 100%;
   background-color: #141414;
   height: auto;
   padding: 144px 0px;
 }
-.hero .container {
+#hero .container {
   display: flex;
+  align-items: center;
   gap: 80px;
 }
-.hero .container .hero-left {
+#hero .container .hero-left {
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 60px;
 }
-.hero .container .hero-left .contents h1 {
+#hero .container .hero-left .contents h1 {
   font-size: 60px;
   margin-bottom: 24px;
 }
-.hero .container .hero-left .btns {
+#hero .container .hero-left .btns {
   display: flex;
   gap: 30px;
 }
-.hero .container .hero-left .hero-cards {
+#hero .container .hero-left .hero-cards {
   display: flex;
   gap: 20px;
 }
-.hero .container .hero-right {
+#hero .container .hero-right {
   flex: 1;
   display: flex;
 }
-.hero .hero-image {
+#hero .hero-image {
   position: absolute;
   width: calc(50% - 80px);
   height: 100%;
   top: 0;
   right: 0;
 }
-.hero .hero-image .img {
+#hero .hero-image .img {
   position: relative;
   width: 100%;
   height: 100%;
 }
-.hero .hero-image .img .image {
+#hero .hero-image .img .image {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -601,7 +782,7 @@ header .container nav .nav-links.active {
 }
 
 .faq {
-  padding: 150px 0px;
+  padding: 150px 0px 75px;
   background-color: #141414;
 }
 .faq .container {
@@ -662,6 +843,7 @@ footer .footer .container .left label {
   justify-content: space-between;
 }
 footer .footer .container .left label input {
+  color: #fff;
   width: 425px;
   padding: 18px 24px 18px 58px;
   background-color: #141414;
@@ -725,5 +907,71 @@ footer .end .container .right .social-icon {
   cursor: pointer;
   padding: 14px;
   border-radius: 50%;
+  background-color: #141414;
+}
+
+.values {
+  padding: 75px 0px;
+}
+.values .container {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.achievements {
+  padding: 75px 0px;
+}
+.achievements .container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.navigate {
+  padding: 75px 0px;
+}
+.navigate .container {
+  display: flex;
+  flex-direction: column;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 50px;
+}
+
+.our-team {
+  padding: 75px 0px;
+}
+.our-team .container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.our-clients {
+  padding: 75px 0px;
+}
+.our-clients .container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.our-clients .container .cards {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+.pages {
+  display: none;
+}
+.pages.active {
+  display: block !important;
+}
+
+#home {
+  display: none;
+}
+
+#about {
+  height: auto;
   background-color: #141414;
 }/*# sourceMappingURL=main.css.map */

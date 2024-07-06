@@ -1,0 +1,13 @@
+.our-clients{
+    padding: 75px 0px;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        
+        .cards{
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+    }
+}

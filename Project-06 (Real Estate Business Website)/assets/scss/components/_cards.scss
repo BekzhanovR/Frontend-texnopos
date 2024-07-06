@@ -132,6 +132,51 @@
         .faq-card{
             gap: 30px;
         }
+
+        .client-card{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            box-shadow: 0px 0px 0px 8px #191919;
+
+            h3{
+                font-size: 16px;
+                color: #fff;
+                font-weight: 500;
+            }
+
+            .top{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .middle{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+                .paragraph{
+                    display: flex;
+                    gap: 5px;
+                }
+
+                hr{
+                    width: 1px;
+                    height: 100%;
+                    border: 1px solid $grey-color-15;
+                }
+            }
+
+            .bottom{
+                padding: 24px;
+                border-radius: 12px;
+                border: 1px solid $grey-color-15;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
     }
 
     .slider-btns{
@@ -164,6 +209,169 @@
 
                 &.active{
                     background-color: $grey-color-10;
+                }
+            }
+        }
+    }
+}
+
+.values-card{
+    padding: 60px;
+    border: 1px solid $grey-color-15;
+    border-radius: 12px;
+    box-shadow: 0px 0px 0px 10px #191919;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .items{
+        display: flex;
+        gap: 30px;
+
+        .vertical-line{
+            width: 1px;
+            height: 100;
+            background-color: $grey-color-15;
+            border: none;
+        }
+
+        .item{
+            width: 420px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .header{
+                display: flex;
+                align-items: center;
+                gap: 14px;
+
+                span{
+                    padding: 20px;
+                    border-radius: 50px;
+                    border: 1px solid $purple-color-60;
+                }
+            }
+        }
+    }
+
+    .line{
+        width: 100%;
+        height: 1px;
+        background-color: $grey-color-15;
+        border: none;
+    }
+}
+
+.achievments-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+
+    .card{
+        background-color: $grey-color-08;
+        border: 1px solid $grey-color-15;
+        border-radius: 12px;
+        padding: 50px;
+        box-shadow: 0px 0px 0px 8px #191919;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        h3{
+            font-size: 30px;
+        }
+    }
+}
+
+.navigate-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    .navigate-card{
+        .top{
+            padding: 16px 20px;
+            border-left: 1px solid $purple-color-60;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 500;
+            color: #fff;
+        }
+
+        .bottom{
+            padding: 50px;    
+            border: 1px solid $purple-color-60;
+            border-radius: 0px 10px 10px 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+}
+
+.team-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;  
+
+    .team-card{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        border: 1px solid $grey-color-15;
+        border-radius: 12px;
+
+        .member-image{
+            position: relative;
+
+            img{
+                width: 100%;
+            }
+
+            .social-link{
+                cursor: pointer;
+                position: absolute;
+                left: 50%;
+                bottom: -28px;
+                transform: translateX(-50%);
+                border-radius: 43px;
+                padding: 16px 24px;
+                background-color: $purple-color-60;
+            } 
+        }
+
+        .member-info{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .member-desc{
+                text-align: center;
+            }
+
+            .send-msg-btn{
+                cursor: pointer;
+                padding: 14px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border: 1px solid $grey-color-15;
+                border-radius: 100px;
+                background-color: $grey-color-10;
+                color: #fff;
+
+                .msg{
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+
+                .send-btn{
+                    padding: 10px;
+                    border-radius: 50%;
+                    background-color: $purple-color-60;
                 }
             }
         }

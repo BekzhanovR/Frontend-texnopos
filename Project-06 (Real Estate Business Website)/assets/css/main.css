@@ -974,4 +974,12 @@ footer .end .container .right .social-icon {
 #about {
   height: auto;
   background-color: #141414;
+}
+
+#properties {
+  height: auto;
+  background-color: #141414;
+}
+#properties section {
+  padding: 150px;
 }/*# sourceMappingURL=main.css.map */
